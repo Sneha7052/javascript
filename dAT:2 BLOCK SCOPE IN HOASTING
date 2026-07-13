@@ -1,0 +1,14 @@
+var a = 100;
+let b = 23;
+const c = 111;
+{
+
+    let a = 12;
+    var b = 23;
+    const c = 78;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+console.log(a);
+console.log(c);
